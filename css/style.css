@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../medias/modele-carnaval-bresilien-realiste_52683-54252.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+}
+.navbar{
+    
+    gap: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.logo{
+    font-size: 3em;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-size: 5em;
+}
+main p {
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+}
+video , img{
+    width: 350px;
+    height: auto;
+    margin-top: 150px;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.801);
+    margin-left: 750px;
+}
